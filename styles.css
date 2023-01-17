@@ -1,0 +1,29 @@
+.file_structure_ul, .file_structure_li{
+    list-style: none;
+}
+
+.file_structure > li > ul, .file_structure > li > ul > li > ul {
+    display: none;
+}
+
+.file_structure_ul {
+    margin-bottom: 5px;
+}
+
+.file_structure_li {
+    margin-bottom: 3px;
+}
+
+.file_structure_li, .file_structure .fa{
+    margin-right: 5px;
+}
+
+.file_structure_open{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.file_structure_open:hover {
+    cursor: pointer;
+}
+

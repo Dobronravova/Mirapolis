@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Structure</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<ul class="file_structure">
+    <li class="file_structure_li"><a class="file_structure_open"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-folder"></i>Folder 1</a>
+        <ul class="file_structure_ul">
+            <li class="file_structure_li"><i class="fa fa-file"></i>Item 1.1</li>
+        </ul>
+    </li>
+    <li class="file_structure_li"><a class="file_structure_open"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-folder"></i>Folder 2</a>
+        <ul class="file_structure_ul">
+            <li class="file_structure_li"><a class="file_structure_open"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-folder"></i>Folder 2.1</a>
+                <ul class="file_structure_ul">
+                    <li class="file_structure_li"><i class="fa fa-file"></i>File 2.1.1</li>
+                    <li class="file_structure_li"><i class="fa fa-file"></i>File 2.1.2</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="file_structure_li"><a class="file_structure_open"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-folder"></i>Folder 3 (closed at start)</a>
+        <ul class="file_structure_ul">
+            <li class="file_structure_li"><a class="file_structure_open"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-folder"></i>Subfolder 3.1</a>
+                <ul class="file_structure_ul">
+                    <li class="file_structure_li"><i class="fa fa-file"></i>File 3.1.1</li>
+                    <li class="file_structure_li"><i class="fa fa-file"></i>File 3.1.2</li>
+                </ul>
+            </li>
+            <li class="file_structure_li"><a class="file_structure_open"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-folder"></i>Subfolder 3.2</a>
+                <ul class="file_structure_ul">
+                    <li class="file_structure_li"><i class="fa fa-file"></i>File 3.2.1</li>
+                    <li class="file_structure_li"><i class="fa fa-file"></i>File 3.2.2</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="file_structure_li"><i class="fa fa-file"></i>File 4</li>
+</ul>
+    
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
